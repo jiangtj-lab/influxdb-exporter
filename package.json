@@ -1,0 +1,57 @@
+{
+  "name": "influxdb-exporter",
+  "version": "0.0.1",
+  "private": true,
+  "author": {
+    "name": "Mr.J",
+    "email": "jiang.taojie@foxmail.com"
+  },
+  "main": "main.js",
+  "description": "InfluxDB Exporter.",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "build-github": "vue-cli-service build --mode github",
+    "upgrade-latest": "yarn upgrade --latest && yarn add vue@next vue-router@next sass-loader@10"
+  },
+  "dependencies": {
+    "@element-plus/icons": "^0.0.11",
+    "@influxdata/influxdb-client": "^1.17.0",
+    "@influxdata/influxdb-client-apis": "^1.17.0",
+    "core-js": "^3.17.2",
+    "dayjs": "^1.10.6",
+    "element-plus": "^1.1.0-beta.9",
+    "js-yaml": "^4.1.0",
+    "lodash": "^4.17.21",
+    "qs": "^6.10.1",
+    "vue": "^3.2.10",
+    "vue-router": "^4.0.11",
+    "xlsx": "^0.17.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.13",
+    "@vue/cli-plugin-eslint": "~4.5.13",
+    "@vue/cli-plugin-router": "~4.5.13",
+    "@vue/cli-service": "~4.5.13",
+    "@vue/compiler-sfc": "^3.2.10",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-hexo": "^4.2.0",
+    "eslint-plugin-vue": "^7.17.0",
+    "raw-loader": "^4.0.2",
+    "sass": "^1.39.0",
+    "sass-loader": "10",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-scss": "^3.20.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "engines": {
+    "node": ">=10.13.0"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "root": true,
+  "env": {
+    "node": true
+  },
+  "extends": [
+    "hexo",
+    "plugin:vue/vue3-strongly-recommended"
+  ],
+  "parserOptions": {
+    "parser": "babel-eslint"
+  },
+  "rules": {
+    "vue/script-indent": ["error", 2, {
+      "switchCase": 1
+    }],
+    "vue/max-attributes-per-line": "off",
+    "vue/singleline-html-element-content-newline": "off",
+    "vue/require-default-prop": "off",
+    "vue/html-closing-bracket-newline": "off",
+    "vue/script-setup-uses-vars": "off",
+    "node/no-missing-import": "off",
+    "node/no-unsupported-features/es-syntax": "off",
+    "linebreak-style": "off",
+    "no-unused-vars": "warn",
+    "no-debugger": "off",
+    "no-mixed-operators": "off"
+  }
+}
